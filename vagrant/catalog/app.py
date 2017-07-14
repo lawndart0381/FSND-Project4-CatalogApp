@@ -274,7 +274,7 @@ def showCatalog():
 @app.route('/catalog/<int:category_id>/items')
 def showItems(category_id):
     category = session.query(Category).filter_by(id=category_id).one()
-    items = session.query(Item).filter_by(category_id=category_id).order_by('time_created desc').all()  # NOQA
+    items = session.query(Item).filter_by(category_id=category_id).order_by("time_created desc").all()  # NOQA
     creator = getUserInfo(category.user_id)
     if 'username' not in login_session:
         return render_template('publicitems.html', category=category,
