@@ -89,4 +89,4 @@ python app.py
 * [Udacity](https://www.udacity.com/) - Programming Foundations with Python
 * [Udacity](https://www.udacity.com/) - The Backend: Databases & Applications
 * [Google](https://developers.google.com/) - OAUTH User Authentication
-* [Facebbok](https://developers.facebook.com/) - OAUTH User Authentication
+* [Facebook](https://developers.facebook.com/) - OAUTH User Authentication
